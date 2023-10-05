@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather app</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div id="main">
+    <div id="search">
+      <input id="input" placeholder="Enter city name" type="text">
+      <button id="search">search</button>
+    </div>
+    <div id="city_country">
+      <div>
+        <p>Location</p>
+      </div>
+      <div>
+        <h1 id="city"></h1>
+        <h5 id="country"></h5>
+      </div>
+    </div>
+    <div id="sunrise_sunset">
+      <div>
+        <p class="heading">sunrise</p>
+        <p id="sunrise"></p>
+      </div>
+      <div>
+        <p class="heading">sunset</p>
+        <p id="sunset"></p>
+      </div>
+    </div>
+    <div id="temprature">
+      <div>
+        <img id="img" alt="">
+      </div>
+      <div>
+        <div>
+          <h1 id="temp"></h1>
+          <p id="wathertype"></p>
+        </div>
+        <div id="min_max">
+          <div>
+            <h6> min</h6>
+            <span id="tempmin"></span>
+          </div>
+          <div>
+            <h6> max</h6>
+            <span id="tempmax"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="otherdetails">
+      <div>
+        <div>
+          <h4>Wind </h4>
+          <p id="wind"></p>
+        </div>
+        <div>
+          <h4>Visibility</h4>
+          <p id="visibility"></p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h4>Pressure</h4>
+          <p id="pressure"></p>
+        </div>
+        <div>
+          <h4>Humidity</h4>
+          <p id="humidity"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
